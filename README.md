@@ -1,18 +1,33 @@
-## Getting Started
+# 🍕 Java Pizza Bill Generator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Professional pizza ordering system demonstrating core Java OOP principles. Built for technical interviews to showcase:
+- Polymorphism
+- Encapsulation
+- Input validation
+- Clean architecture
+- Error handling
 
-## Folder Structure
+## Features
+✅ Interactive CLI interface  
+✅ Real-time bill generation  
+✅ Immutable Delux Pizza implementation  
+✅ Production-grade error handling  
+✅ Cross-platform compatibility
 
-The workspace contains two folders by default, where:
+## Tech Stack
+- Java 17
+- Maven (optional)
+- Git
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Run Locally
+```bash
+git clone https://github.com/YOUR_USERNAME/java-pizza-bill-generator.git
+cd java-pizza-bill-generator/src
+javac -encoding UTF-8 PizzaShop.java Pizza.java DeluxPizza.java
+java -Dfile.encoding=UTF-8 PizzaShop ```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ Project Structure
+src/
+├── Pizza.java            # Base pizza logic
+├── DeluxPizza.java       # Premium pizza implementation
+└── PizzaShop.java        # User interface & entry point
